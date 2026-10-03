@@ -1,2 +1,4 @@
 # AI-Written-Python-Scripts
-These are a collection of scripts that I've generated using Claude Code. Code generated was tested, outputs were analyzed, and then shared with whoever needed them, or simply implemented into the work environment. All credit to Claude. 
+A collection of NOC monitoring and reporting scripts (Nagios/NagVis scraping, source comparison, and report emailing), written with Claude Code. I designed, tested and validated them against a live environment, and they were either shared with the people who needed them or put into daily use.
+
+Environment-specific values (IPs, hostnames, email addresses, dashboard mappings) have been replaced with placeholders; edit the config sections before running.
