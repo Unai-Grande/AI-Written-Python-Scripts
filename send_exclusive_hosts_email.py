@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """
+
+Gathers, reads, and then compiles an email showing a count of how many differing fields there are 
+between inventory comparisons. Pretty thrifty. 
+
 send_exclusive_hosts_email.py
 
 Gathers the four "exclusive_<source>.csv" files that normalized_key_matrix.py
