@@ -2,9 +2,12 @@
 """
 lookup_nagios_delta.py
 
+In essence: This script compares the output of an inventory (which we refer to, or in comes from, 
+a monitoring back end service called Nagios) and the manually handled record file, in search of discrepancies. 
+How you define discrepancies is listed below.
+
 The DELTA between the Lookup File and the Nagios export: what one has that
-the other doesn't, and - the part the comparison scripts don't answer -
-where both have the same entry but disagree about its details.
+the other doesn't, and where both have the same entry but disagree about its details.
 
 The three sibling comparison scripts (primary_key_comparison.py,
 full_hostname_key_comparison.py, ip_service_key_comparison.py) all answer
