@@ -6,7 +6,7 @@ Environment specific values such as IPs, hostnames, email addresses, dashboard m
 ## Info for scripts starts here
 **lookup_nagios_delta.py** – Compares the monitoring system against the
 inventory file and sorts every host/service into missing, mismatched, or
-identical. This is the tool described in my application.
+identical, with per-server breakdowns.
 
 ## Other scripts
 - **lookup_nagios_delta.py** – Collects hosts and services from Nagios and then compares them with baseline inventory.
